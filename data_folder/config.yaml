@@ -1,41 +1,45 @@
-remote: [true/false]
+---
+remote: true
 
 experienceLevel:
- internship: [true/false]
- entry: [true/false]
- associate: [true/false]
- mid-senior level: [true/false]
- director: [true/false]
- executive: [true/false]
+  internship: true
+  entry: true
+  associate: true
+  "mid-senior level": false
+  director: false
+  executive: false
 
 jobTypes:
- full-time: [true/false]
- contract: [true/false]
- part-time: [true/false]
- temporary: [true/false]
- internship: [true/false]
- other: [true/false]
- volunteer: [true/false]
+  full-time: true
+  contract: false
+  part-time: true
+  temporary: false
+  internship: true
+  other: false
+  volunteer: false
 
 date:
- all time: [true/false]
- month: [true/false]
- week: [true/false]
- 24 hours: [true/false]
+  "all time": false
+  month: true
+  week: true
+  "24 hours": true
 
 positions:
-  - position1
-  - position2
+  - Software Developer
+  - Web Developer
+  - Web Designer
+  - FullStack Developer
+  - Frontend Developer
+  - Backend Developer
 
 locations:
-  - Country1
-  - Country2
+  - USA
 
 distance: 100
 
 companyBlacklist:
-  - Company1
-  - Company2
+  - Noir
+  - Crossover
 
 titleBlacklist:
   - word1
